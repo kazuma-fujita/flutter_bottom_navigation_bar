@@ -13,12 +13,10 @@ enum TabType {
   favorite,
 }
 
-// final wordPairListViewModelProvider = AutoDisposeStateNotifierProvider(
 final wordPairListViewModelProvider = StateNotifierProvider(
   (ref) => WordPairListViewModel(),
 );
 
-// final favoriteListViewModelProvider = AutoDisposeStateNotifierProvider(
 final favoriteListViewModelProvider = StateNotifierProvider(
   (ref) => FavoriteListViewModel(),
 );
